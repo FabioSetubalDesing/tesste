@@ -1,0 +1,10 @@
+@media (max-width: 776px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+  #caixaForm {
+    z-index: 0;
+    position: relative;
+    left: 2vh;
+  }
+}/*# sourceMappingURL=resposivo.css.map */
