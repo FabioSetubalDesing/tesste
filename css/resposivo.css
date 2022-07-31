@@ -6,6 +6,8 @@
     z-index: 0;
     position: relative;
     left: 2vh;
+    height: 350px;
+    width: 92%;
   }
   #col-7 h1 {
     color: rgb(255, 0, 179);
