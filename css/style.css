@@ -21,7 +21,6 @@ header {
 .flex-container #col-7 {
   width: 200%;
   height: auto;
-  border: 1px solid;
   padding-left: 10%;
   padding-top: 7%;
 }
@@ -31,7 +30,6 @@ header {
 .flex-container .col {
   width: 100%;
   height: auto;
-  border: 1px solid;
 }
 
 nav {

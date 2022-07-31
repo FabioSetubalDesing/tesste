@@ -7,4 +7,13 @@
     position: relative;
     left: 2vh;
   }
+  #col-7 h1 {
+    color: red;
+    font-size: x-small;
+  }
+}
+@media (max-width: 500px) and (min-height: 660px) {
+  header {
+    height: 130vh;
+  }
 }/*# sourceMappingURL=resposivo.css.map */
