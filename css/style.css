@@ -7,10 +7,6 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
-  font-size: 50px;
-}
-
 header {
   width: 100%;
   height: 100vh;
@@ -35,6 +31,11 @@ header {
 .flex-container .col {
   width: 100%;
   height: auto;
+}
+
+#t1 {
+  font-size: 50px;
+  color: white;
 }
 
 nav {
@@ -107,5 +108,5 @@ nav a:hover {
 }
 
 #servico {
-  background-color: red;
+  background-color: #9AADBD;
 }/*# sourceMappingURL=style.css.map */

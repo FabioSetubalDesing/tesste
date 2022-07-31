@@ -17,4 +17,9 @@
     color: rgb(0, 0, 0);
     font-size: 20px;
   }
+}
+@media (max-height: 700px) {
+  header {
+    height: 120vh;
+  }
 }/*# sourceMappingURL=resposivo.css.map */

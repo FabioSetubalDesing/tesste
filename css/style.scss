@@ -3,13 +3,12 @@
     margin: 0;
 }
 
+//estilos universais---
 html{
     scroll-behavior: smooth;
 }
 
-h1{
-    font-size: 50px;
- }
+
 
 header{
     width: 100%;
@@ -29,16 +28,15 @@ header{
     
     
     #col-7{
-    
         width: 200%;
         height:auto;
         // border: 1px solid;
       
         padding-left: 10%;
         padding-top: 7%;
-
        
     }
+
     .col{
         width: 100%;
         height: auto;
@@ -47,6 +45,13 @@ header{
     
 }
 
+//Primeira parte HOME--
+
+// titulo  h1
+#t1{
+    font-size: 50px;
+    color: white; 
+}
 
 //barra de navegação
 nav {
@@ -80,7 +85,7 @@ nav {
     }
 }  
 
-//caixa que contem todo o formmulario
+//caixa que contem todo o formulario
 #caixaForm{
     color: #435F75;
     margin-top: 5%;
@@ -122,7 +127,8 @@ nav {
 }
 
 
-//sobre segunda parte da pagina
+
+//Segunda parte Sobre---
 
 #sobre{
     flex-wrap:wrap;
@@ -132,8 +138,8 @@ nav {
 }
 
 
-// serviço terceira parte
 
+// serviço terceira parte
 #servico{
-    background-color: red;
+    background-color: #9AADBD;
 }
