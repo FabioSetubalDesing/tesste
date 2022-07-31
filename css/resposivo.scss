@@ -15,16 +15,18 @@
 
     #col-7{
         h1{
-            color: red;
-           font-size: x-small;
+           color: rgb(0, 47, 255);
+           font-size: 30px;
+        }
+        h2{
+            color: green;
+            font-size: 20px;
         }
     }
 }
 
 @media (max-width:500px) and(min-height:660px){
-    header{
-        height: 130vh;
-    }
+
 }
 
 // @media(min-width:150px) and (min-height:1086px){
