@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   font-size: 50px;
 }
@@ -55,6 +59,9 @@ nav a {
   color: white;
   text-decoration: none;
 }
+nav a:hover {
+  color: blue;
+}
 
 #caixaForm {
   color: #435F75;
@@ -90,4 +97,15 @@ nav a {
   margin-top: 1%;
   width: 100%;
   height: 40px;
+}
+
+#sobre {
+  flex-wrap: wrap;
+}
+#sobre h1 {
+  text-align: center;
+}
+
+#servico {
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */

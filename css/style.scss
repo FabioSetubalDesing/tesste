@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 h1{
     font-size: 50px;
  }
@@ -70,6 +74,10 @@ nav {
         color: white;
         text-decoration: none;
     }
+
+    a:hover{
+        color: blue;
+    }
 }  
 
 //caixa que contem todo o formmulario
@@ -111,4 +119,21 @@ nav {
         width: 100%;
         height: 40px;
     }
+}
+
+
+//sobre segunda parte da pagina
+
+#sobre{
+    flex-wrap:wrap;
+    h1{
+        text-align: center;
+    }
+}
+
+
+// serviço terceira parte
+
+#servico{
+    background-color: red;
 }
