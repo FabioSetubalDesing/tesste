@@ -10,13 +10,25 @@
        z-index: 0;
        position: relative;
        left: 2vh;
-       height: 350px;
+       height: 300px;
        width: 92%;
+
+       input{
+        height: 20px;
+        }
+
+        textarea{
+            width: 100%;
+            height: 50px;    
+        }
+        button{
+            height: 20px;
+        }
     }
 
     #col-7{
         h1{
-           color: rgb(217, 255, 0);
+           color: rgb(255, 255, 255);
            font-size: 30px;
         }
         h2{
