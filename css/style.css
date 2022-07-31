@@ -31,7 +31,6 @@ header {
 .flex-container .col {
   width: 100%;
   height: auto;
-  border: 1px solid;
 }
 
 #t1 {
@@ -103,6 +102,7 @@ nav a:hover {
 
 #sobre {
   flex-wrap: wrap;
+  height: 100vh;
 }
 
 #t2 {
@@ -138,19 +138,20 @@ nav a:hover {
             text-decoration: underline rgb(3, 7, 70);
   }
 }
-#p1 {
+#p2 {
   color: #435F75;
-  padding-top: 20%;
-  font-size: 30px;
+  padding-top: 16%;
+  font-size: 25px;
+  margin: 2%;
+  text-align: justify;
 }
 
 #foto {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 300px;
   border: 1px solid;
-  margin-top: 5%;
+  margin-top: 12%;
   margin-left: 15%;
-  background-color: #435F75;
 }
 
 #servico {

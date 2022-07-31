@@ -39,7 +39,7 @@
         }
     }
 
-//Segunda parte Sobre
+//Segunda parte Sobre---
     
     #foto{
         width: 97%;
@@ -48,11 +48,22 @@
         margin-left: 1%;
     }
 
-    // paragrafo
+    //imagem da logo
+    #img_01{
+        width: 100%;
+    }
+
+    // paragrafos
     #p1{
+        color: black;
+        font-size: 10px;
+        padding-top: 0%;
+    }
+
+    #p2{
         color: #435F75;
-        padding-top: 5%;
-        font-size: 30px;
+        padding-top: 10%;
+        font-size: 20px;
         text-align: justify;
     }
 
