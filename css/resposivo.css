@@ -6,7 +6,7 @@
     z-index: 0;
     position: relative;
     left: 2vh;
-    height: 300px;
+    height: 230px;
     width: 92%;
   }
   #caixaForm input {
@@ -26,6 +26,18 @@
   #col-7 h2 {
     color: rgb(0, 0, 0);
     font-size: 20px;
+  }
+  #foto {
+    width: 97%;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  #p1 {
+    color: #435F75;
+    padding-top: 5%;
+    font-size: 30px;
+    text-align: justify;
   }
 }
 @media (max-height: 700px) {
