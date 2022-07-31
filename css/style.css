@@ -31,6 +31,7 @@ header {
 .flex-container .col {
   width: 100%;
   height: auto;
+  border: 1px solid;
 }
 
 #t1 {
@@ -103,10 +104,46 @@ nav a:hover {
 #sobre {
   flex-wrap: wrap;
 }
-#sobre h1 {
+
+#t2 {
+  color: #435F75;
+  padding-top: 4%;
   text-align: center;
+  -webkit-animation-name: Colorunderline;
+          animation-name: Colorunderline;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes Colorunderline {
+  to {
+    -webkit-text-decoration: underline blue;
+            text-decoration: underline blue;
+  }
+  from {
+    -webkit-text-decoration: underline rgb(3, 7, 70);
+            text-decoration: underline rgb(3, 7, 70);
+  }
+}
+
+@keyframes Colorunderline {
+  to {
+    -webkit-text-decoration: underline blue;
+            text-decoration: underline blue;
+  }
+  from {
+    -webkit-text-decoration: underline rgb(3, 7, 70);
+            text-decoration: underline rgb(3, 7, 70);
+  }
+}
+#p1 {
+  color: #435F75;
+  padding-top: 20%;
+  font-size: 20px;
 }
 
 #servico {
-  background-color: #9AADBD;
+  background-color: #EFF0F5;
 }/*# sourceMappingURL=style.css.map */
