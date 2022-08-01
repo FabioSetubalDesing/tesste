@@ -148,6 +148,9 @@ nav a:hover {
   font-size: larger;
   padding: 1%;
 }
+#btn-pedido:hover {
+  opacity: 0.5;
+}
 
 .bordaSVC {
   height: 115px;

@@ -189,6 +189,11 @@ nav {
     border-radius: 10px;
     font-size: larger;
     padding: 1%;
+
+
+    &:hover{
+        opacity: 0.5;
+    }
 }
 
 //borda dos elementos
