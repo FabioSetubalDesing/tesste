@@ -72,10 +72,10 @@ nav a:hover {
 
 #caixaForm {
   color: #435F75;
-  margin-top: 5%;
+  margin-top: 10%;
   border-radius: 5%;
   width: 92%;
-  height: 420px;
+  height: 400px;
   background-color: white;
   display: flex;
   align-items: center;
