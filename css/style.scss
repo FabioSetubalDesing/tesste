@@ -16,6 +16,13 @@ header{
     background-color: #9AADBD;
 }
 
+//titulo h1
+.titulo_universal{ 
+    color: #435F75;
+    padding-top: 4%;
+    text-align: center;
+}
+
 //container responsive
 .flex-container{
     display: flex;
@@ -49,7 +56,7 @@ header{
 
 // titulo  h1
 #t1{
-    font-size: 50px;
+    font-size: 40px;
     color: white; 
 }
 
@@ -90,8 +97,8 @@ nav {
     color: #435F75;
     margin-top: 5%;
     border-radius: 5%;
-    width: 350px;
-    height: 450px;
+    width: 92%;
+    height: 420px;
     background-color: white;
     display: flex;
     align-items: center ;
@@ -136,13 +143,6 @@ nav {
     
 }
 
-//titulo h1
-#t2{ 
-    color: #435F75;
-    padding-top: 4%;
-    text-align: center;
-    animation-name: Colorunderline;
-}
 
 
 
@@ -150,8 +150,8 @@ nav {
 #p2{
     color: #435F75;
     padding-top: 16%;
-    font-size: 25px;
-    margin: 2%;
+    font-size: 24px;
+    margin: 5%;
     text-align: justify;
 }
 

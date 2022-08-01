@@ -126,15 +126,47 @@
  
 }
 
-//resposivo para computtadores
+//resposivo para computadores
 @media(min-width:1500px){
- 
- //Segunda parte Sobre---
+
+//universais
+    .titulo_universal{ 
+        color: #435F75;
+        padding-top: 4%;
+        text-align: center;
+        font-size: 60px;
+    }
+
+//Primeira parte HOME---
+
+    // titulo  h1
+    #t1{
+        font-size: 60px;
+        color: white; 
+        margin-top: 9%;
+    }
+
+  
+
+    //caixa que contem todo o formulario
+    #caixaForm{
+        color: #435F75;
+        margin-top: 28%;
+        border-radius: 5%;
+        width: 92%;
+        height: 450px;
+        background-color: white;
+        display: flex;
+        align-items: center ;
+        justify-content:center ;
+    }
+
+//Segunda parte Sobre---
      
      #foto{
-         width: 70%;
-         height: 500px;
-         margin-top: 5%;
+         width: 90%;
+         height: 400px;
+         margin-top: 10%;
          margin-left: 10%;
      }
  
@@ -147,16 +179,16 @@
      // paragrafos
      #p1{
          color: black;
-         font-size: 10px;
+         font-size: 15px;
          padding-top: 0%;
      }
  
      #p2{
          color: #435F75;
-         padding-top: 10%;
-         font-size: 40px;
+         padding-top: 13%;
+         padding-right: 5%;
+         font-size: 30px;
          text-align: justify;
-        
      }
  
  // serviço terceira parte ---

@@ -13,6 +13,12 @@ header {
   background-color: #9AADBD;
 }
 
+.titulo_universal {
+  color: #435F75;
+  padding-top: 4%;
+  text-align: center;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -34,7 +40,7 @@ header {
 }
 
 #t1 {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
 }
 
@@ -68,8 +74,8 @@ nav a:hover {
   color: #435F75;
   margin-top: 5%;
   border-radius: 5%;
-  width: 350px;
-  height: 450px;
+  width: 92%;
+  height: 420px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -105,19 +111,11 @@ nav a:hover {
   height: 100vh;
 }
 
-#t2 {
-  color: #435F75;
-  padding-top: 4%;
-  text-align: center;
-  -webkit-animation-name: Colorunderline;
-          animation-name: Colorunderline;
-}
-
 #p2 {
   color: #435F75;
   padding-top: 16%;
-  font-size: 25px;
-  margin: 2%;
+  font-size: 24px;
+  margin: 5%;
   text-align: justify;
 }
 
