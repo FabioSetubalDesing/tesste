@@ -19,7 +19,7 @@ header {
   flex-wrap: nowrap;
   align-items: flex-start;
   align-content: flex-start;
-  height: 700px;
+  height: auto;
   width: 100%;
 }
 .flex-container #col-7 {
@@ -135,15 +135,9 @@ nav a:hover {
   background-color: #EFF0F5;
 }
 
-#coluna2 {
-  position: relative;
-  top: -105vh;
-}
-
 #colPedido {
   text-align: center;
   position: relative;
-  top: -200vh;
 }
 
 .bordaSVC {

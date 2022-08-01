@@ -71,14 +71,11 @@
     .bordaSVC{
         margin: 0%;
     }
-    #coluna2{
-        position: relative;
-        top: -52vh;
-    }
+
     #colPedido{
         text-align: center;
         position: relative;
-        top: -75vh;
+        
     }
 
     //icones
@@ -103,11 +100,7 @@
         height: 75px;
     }
 
-    #colPedido{
-        text-align: center;
-        position: relative;
-        top: -100vh;
-    }
+
     
 }
 
@@ -119,39 +112,7 @@
     }
 
 // serviço terceira parte ---
-    #coluna2{
-        position: relative;
-        top: -70vh;
-    }
-    #colPedido{
-        text-align: center;
-        position: relative;
-        top: -75vh;
-    }
-
-    //icones
-    .icones{
-        width: 30px;
-        height: 30px;
-        margin-left: 47%;
-        margin-top: 3%;
-    }
-
-    // texto abaixo dos icones
-    .textoIcon{
-        font-size: 8px;
-    }
-
-    //descrição dos icones
-    .subText_icon{
-        font-size: 8px;
-    }
-    //borda dos elementos
-    .bordaSVC{
-        height: 75px;
-    }
-
-    #colPedido{
+a    #colPedido{
         text-align: center;
         position: relative;
         top: -135vh;

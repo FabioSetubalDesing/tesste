@@ -50,14 +50,9 @@
   .bordaSVC {
     margin: 0%;
   }
-  #coluna2 {
-    position: relative;
-    top: -52vh;
-  }
   #colPedido {
     text-align: center;
     position: relative;
-    top: -75vh;
   }
   .icones {
     width: 30px;
@@ -73,42 +68,13 @@
   }
   .bordaSVC {
     height: 75px;
-  }
-  #colPedido {
-    text-align: center;
-    position: relative;
-    top: -100vh;
   }
 }
 @media (max-width: 400px) and (max-height: 700px) {
   header {
     height: 120vh;
   }
-  #coluna2 {
-    position: relative;
-    top: -70vh;
-  }
-  #colPedido {
-    text-align: center;
-    position: relative;
-    top: -75vh;
-  }
-  .icones {
-    width: 30px;
-    height: 30px;
-    margin-left: 47%;
-    margin-top: 3%;
-  }
-  .textoIcon {
-    font-size: 8px;
-  }
-  .subText_icon {
-    font-size: 8px;
-  }
-  .bordaSVC {
-    height: 75px;
-  }
-  #colPedido {
+  a #colPedido {
     text-align: center;
     position: relative;
     top: -135vh;
