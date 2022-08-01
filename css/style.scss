@@ -40,7 +40,7 @@ header{
     .col{
         width: 100%;
         height: auto;
-        //  border: 1px solid;
+        // border: 1px solid;
     }
     
 }
@@ -142,15 +142,9 @@ nav {
     padding-top: 4%;
     text-align: center;
     animation-name: Colorunderline;
-    animation-duration: 2s;
-    animation-iteration-count:infinite;
 }
 
-//animação do titulo h1
-@keyframes Colorunderline {
-    to  {text-decoration: underline blue}
-    from  {text-decoration: underline rgb(3, 7, 70);}
-}
+
 
 // paragrafo
 #p2{
@@ -174,5 +168,56 @@ nav {
 
 // serviço terceira parte ---
 #servico{
+    flex-wrap:wrap;
+    height: 100vh;
     background-color: #EFF0F5;
 }
+
+//colunas
+#coluna2{
+    position: relative;
+    top: -105vh;
+}
+
+#colPedido{
+    text-align: center;
+    position: relative;
+    top: -200vh;
+}
+
+//borda dos elementos
+.bordaSVC{
+    height: 115px;
+    margin: 10%;
+    border: 1px solid rgb(206, 200, 200);
+}
+
+//icones
+.icones{
+    width: 50px;
+    height: 50px;
+    margin-left: 41%;
+    margin-top: 5%;
+}
+
+// texto abaixo dos icones
+.textoIcon{
+    text-align: center;
+    font-weight:bold;
+}
+
+//descrição dos icones
+.subText_icon{
+    font-size: 10px;
+    text-align: center;
+}
+
+//perguntas quarta parte
+
+#perguntas{
+    background-color: red;
+}
+
+
+
+							
