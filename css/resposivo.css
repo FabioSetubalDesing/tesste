@@ -50,6 +50,11 @@
   .bordaSVC {
     margin: 0%;
   }
+  #colPedido {
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+  }
 }
 @media (max-width: 400px) and (max-height: 700px) {
   header {
@@ -63,11 +68,6 @@
   }
   .bordaSVC {
     margin: 0%;
-  }
-  #colPedido {
-    text-align: center;
-    position: relative;
-    margin-top: 5%;
   }
   .icones {
     width: 30px;
