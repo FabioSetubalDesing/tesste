@@ -55,6 +55,9 @@
     position: relative;
     margin-top: 5%;
   }
+  #perguntas {
+    height: 35vh;
+  }
 }
 @media (max-width: 400px) and (max-height: 700px) {
   header {
@@ -83,6 +86,9 @@
   }
   .bordaSVC {
     height: 75px;
+  }
+  #perguntas {
+    height: 45vh;
   }
 }
 @media (min-width: 1500px) {
@@ -157,5 +163,8 @@
   }
   #colPedido {
     font-size: 20px;
+  }
+  #perguntas {
+    height: 82vh;
   }
 }/*# sourceMappingURL=resposivo.css.map */

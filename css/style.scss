@@ -52,6 +52,10 @@ header{
     
 }
 
+.row{
+    flex-wrap:wrap;
+}
+
 //Primeira parte HOME--
 
 // titulo  h1
@@ -223,12 +227,28 @@ nav {
     text-align: center;
 }
 
-//perguntas quarta parte
+//perguntas quarta parte---
 
 #perguntas{
-    background-color: red;
+    height: 93vh;
 }
 
+.bordePerguntas{
+    border: 1px solid #435F75;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(212, 205, 205) ;
+    }
+
+    p{
+        margin: 2%;
+        text-align: center;
+        color: #435F75;
+    }
+}
 
 
 							

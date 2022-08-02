@@ -39,6 +39,10 @@ header {
   height: auto;
 }
 
+.row {
+  flex-wrap: wrap;
+}
+
 #t1 {
   font-size: 40px;
   color: white;
@@ -176,5 +180,21 @@ nav a:hover {
 }
 
 #perguntas {
-  background-color: red;
+  height: 93vh;
+}
+
+.bordePerguntas {
+  border: 1px solid #435F75;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.bordePerguntas:hover {
+  cursor: pointer;
+  background-color: rgb(212, 205, 205);
+}
+.bordePerguntas p {
+  margin: 2%;
+  text-align: center;
+  color: #435F75;
 }/*# sourceMappingURL=style.css.map */
