@@ -64,6 +64,7 @@ header{
     color: white; 
 }
 
+
 //barra de navegação
 nav {
     z-index: 1;
@@ -100,9 +101,10 @@ nav {
 #caixaForm{
     color: #435F75;
     margin-top: 10%;
+    margin-left: 10%;
     border-radius: 5%;
-    width: 92%;
-    height: 400px;
+    width: 88%;
+    height: 380px;
     background-color: white;
     display: flex;
     align-items: center ;
@@ -173,7 +175,7 @@ nav {
 // serviço terceira parte ---
 #servico{
     flex-wrap:wrap;
-    height: 100vh;
+    height: 110vh;
     background-color: #EFF0F5;
 }
 
@@ -250,5 +252,67 @@ nav {
     }
 }
 
+//Contato quinta parte---
+#contato{
+    background-color: #5B6E81;
+    height: 70vh;
+}
 
-							
+#titulo_contato{
+    color: white;
+}	
+
+.contato_margin{
+    margin-top: 10%;
+}
+
+.col1_contato{
+    margin-left: 10%;
+    text-align: center;
+}
+
+#faleConosco{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+#paragrafo_contato{
+    font-weight: bold;
+    color: white;
+}
+
+#caixaContat{
+    width: 80%;
+    height:30vh;
+    margin-left: 10%;
+    background-color: white;
+    align-items: center ;
+    justify-content:center ;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+//Rodape---
+footer{
+    height: 10vh;
+    color: white;
+    font-size: 10PX;
+    text-align: center;
+    background-color: #44596A
+}
+
+#direitosReservados{
+    margin-top: 2%;
+    margin-right: 15px;
+}
+
+#cnpj{
+    text-align: end;
+}
+
+#termos{
+    text-align: start;
+    margin-left: 2px;
+}

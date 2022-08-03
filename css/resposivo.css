@@ -8,6 +8,7 @@
     left: 2vh;
     height: 230px;
     width: 92%;
+    margin-left: 0%;
   }
   #caixaForm input {
     height: 20px;
@@ -58,6 +59,25 @@
   #perguntas {
     height: 35vh;
   }
+  #contato {
+    height: 90vh;
+  }
+  #caixaContat {
+    width: 80%;
+    height: 30vh;
+    margin-left: 13%;
+  }
+  #direitosReservados {
+    margin-top: 8%;
+    margin-right: 0px;
+  }
+  #cnpj {
+    text-align: center;
+  }
+  #termos {
+    text-align: center;
+    margin-left: 2px;
+  }
 }
 @media (max-width: 776px) and (max-height: 790px) {
   #servico {
@@ -94,6 +114,10 @@
   }
   #perguntas {
     height: 45vh;
+  }
+  #direitosReservados {
+    margin-top: 5%;
+    margin-right: 0px;
   }
 }
 @media (min-width: 1500px) {
@@ -171,5 +195,8 @@
   }
   #perguntas {
     height: 82vh;
+  }
+  #paragrafo_contato {
+    margin-top: 5%;
   }
 }/*# sourceMappingURL=resposivo.css.map */
