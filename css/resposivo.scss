@@ -86,12 +86,17 @@
 
 //Contato quinta parte---
     #contato{
-        height: 90vh;
+        height: 85vh;
     }
     #caixaContat{
         width: 80%;
         height:30vh;
-        margin-left: 13%;
+        margin-left: 10%;
+    }
+
+    .col1_contato{
+        margin-left: 0%;
+        text-align: center;
     }
 
 //rodape----
@@ -116,8 +121,14 @@
 
 // serviço terceira parte ---
     #servico{
-        height: 110vh;
+        height: 120vh;
     }
+
+    #perguntas{
+        height: 43vh;
+    }
+    
+    
 }
 
 
