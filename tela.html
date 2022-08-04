@@ -41,13 +41,13 @@
 
             <div class="col">
                 <div id="caixaForm">
-                    <form action="post">
+                    <form action="cadastro.php" method="post">
                         <h2>Faça o seu pedido.</h2>
                         <input type="text" placeholder="  NOME:" name="nome"> <br>
                         <input type="email" placeholder="  E-MAIL:" name="email"> <br>
-                        <input type="text" placeholder="  DDD + TELEFONE:" name="telefone"> <br>
-                        <textarea name="message" rows="10" cols="30" name="texto"> como podemos te ajudar?</textarea> <br>
-                        <button type="button" onclick="alert('Hello World!')">SOLICITAR</button>
+                        <input type="number" placeholder="  DDD + TELEFONE:" name="telefone"> <br>
+                        <textarea name="message" rows="10" cols="30"> como podemos te ajudar?</textarea> <br>
+                        <button type="submit">SOLICITAR</button>
                     </form>
                 </div>
             </div>
@@ -244,10 +244,6 @@
                 </div>
             </div>
         </footer>
-        
-        
-
-
     </main>
 
 <script src="js/barra_navegacao.js"></script>

@@ -136,6 +136,11 @@ nav {
         margin-top: 1%;
         width: 100%;
         height: 40px;
+
+        &:hover{
+            opacity: 0.5;
+            cursor: pointer;
+        }
     }
 }
 
@@ -314,4 +319,8 @@ footer{
 #termos{
     text-align: start;
     margin-left: 2px;
+
+    
+
 }
+
