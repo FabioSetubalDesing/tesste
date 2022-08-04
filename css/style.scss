@@ -267,6 +267,18 @@ nav {
 .col1_contato{
     margin-left: 10%;
     text-align: center;
+
+    a{
+        text-decoration: none;
+        padding: 1%;
+        border: 1px solid gray;
+        color: white;
+        background-color: #2e4355;
+
+        &:hover{
+            opacity: 0.5;
+        }
+    }
 }
 
 #faleConosco{
@@ -282,14 +294,28 @@ nav {
 
 #caixaContat{
     width: 80%;
-    height:30vh;
+    height:35vh;
     margin-left: 10%;
     background-color: white;
-    align-items: center ;
-    justify-content:center ;
     display: flex;
     flex-direction: row;
+    
+    p{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2%;
+    }
 
+    img:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+
+}
+
+.text_caixaContat{
+    text-align: center;
+    margin-top: 1%;
 }
 
 
