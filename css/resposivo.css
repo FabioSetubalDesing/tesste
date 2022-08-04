@@ -52,7 +52,7 @@
     text-align: justify;
   }
   #servico {
-    height: 100vh;
+    height: 95vh;
   }
   .bordaSVC {
     margin: 0%;
@@ -107,6 +107,9 @@
     font-size: 15px;
     text-align: justify;
   }
+  #servico {
+    height: 95vh;
+  }
   .bordaSVC {
     margin: 0%;
   }
@@ -126,7 +129,7 @@
     height: 75px;
   }
   #perguntas {
-    height: 45vh;
+    height: 55vh;
   }
   #contato {
     background-color: #5B6E81;
