@@ -50,6 +50,7 @@ header {
 }
 
 nav {
+  background-color: green;
   z-index: 1;
   position: fixed;
   display: flex;
