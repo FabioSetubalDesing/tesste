@@ -86,7 +86,7 @@
 
 //Contato quinta parte---
     #contato{
-        height: 85vh;
+        height: 75vh;
     }
     #caixaContat{
         width: 80%;
@@ -101,7 +101,7 @@
 
 //rodape----
     #direitosReservados{
-        margin-top: 8%;
+        margin-top: 5%;
         margin-right: 0px;
     }
 
@@ -111,7 +111,7 @@
 
     #termos{
         text-align: center;
-        margin-left: 2px;
+        margin-left: 0px;
     }
     
 }
@@ -130,7 +130,7 @@
 }
 
 
-// resposivo para dispositivos menores
+// resposivo para dispositivos menores - 2
 @media (max-width:400px) and (max-height:700px) {
     header{
        height: 120vh;
@@ -138,7 +138,7 @@
 
 // Sobre segunda parte---
 #p2{
-    color: #435F75;
+    color: #754343;
     padding-top: 10%;
     font-size: 15px;
     text-align: justify;
@@ -176,6 +176,39 @@
         height: 45vh;
     }
 
+    //Contato quinta parte---
+    #contato{
+        height: 80vh;
+    }
+
+    .col1_contato{
+        margin-left: 0%;;
+    }
+
+    #faleConosco{
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+    }
+
+    #paragrafo_contato{
+        font-weight: bold;
+        color: white;
+    }
+
+    #caixaContat{
+        width: 80%;
+        height:25vh;
+        margin-left: 10%;
+        background-color: white;
+        align-items: center ;
+        justify-content:center ;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
 //rodape---
 #direitosReservados{
     margin-top: 5%;
@@ -183,6 +216,7 @@
 }
  
 }
+
 
 //resposivo para computadores
 @media(min-width:1500px){
