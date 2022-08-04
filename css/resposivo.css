@@ -122,6 +122,10 @@
   #perguntas {
     height: 45vh;
   }
+  #contato {
+    background-color: #5B6E81;
+    height: 100vh;
+  }
   #direitosReservados {
     margin-top: 5%;
     margin-right: 0px;
