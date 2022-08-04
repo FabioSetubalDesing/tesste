@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- biblioteca AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/Navbar_mobile.css">
   <link rel="stylesheet" href="css/resposivo.css">
@@ -63,13 +65,13 @@
 
             <div class="flex-container">
                 <div class="col">
-                    <div id="foto">
+                    <div id="foto" data-aos="fade-right">
                         <img src="img/codeweb.jpg" width="450px" height="300p0x" id="img_01" alt="">
                         <p id="p1">Imagem representativa da logo da empresa: Autor proprio.</p>
                     </div>
                 </div>
                 <div class="col">
-                    <p id="p2">A codeweb vem atuando no mercado até o momento, para oferecer a melhor satisfação aos seus clientes em desenvolvimento de websites,
+                    <p id="p2" data-aos="fade-left">A codeweb vem atuando no mercado até o momento, para oferecer a melhor satisfação aos seus clientes em desenvolvimento de websites,
                         fortalecer e facilitar a credibilidade das empresas, com isto, a codeweb trabalha com diversificados ramos de atividades.
                         Como empresa, a nossa missão é facilitar e contribuir a comunicação digital para os usuários 
                     </p>
@@ -247,5 +249,13 @@
     </main>
 
 <script src="js/barra_navegacao.js"></script>
+
+<!-- animação Aos -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 1000, 
+    });
+  </script>
 </body>
 </html>
