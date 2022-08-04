@@ -91,7 +91,7 @@
 
 //Contato quinta parte---
     #contato{
-        height: 80vh;
+        height: 90vh;
     }
     #caixaContat{
         width: 80%;
@@ -189,6 +189,15 @@
 #contato{
     background-color: #5B6E81;
     height: 100vh;
+    h1{
+        font-size: 20px;
+    }
+}
+
+#caixaContat{
+    width: 80%;
+    height:40vh;
+    margin-left: 10%;
 }
 
 
