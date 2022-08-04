@@ -3,7 +3,11 @@
     h1{
         text-align: center;
     }
+    p{
+        text-align: center;
+    }
     a{
+        margin-top:1%;
         text-decoration: none;
         background-color: green;
         color:white;
@@ -35,6 +39,7 @@ $sql ="INSERT INTO cliente(`nome`, `email`, `telefone`, `pedido`)
 //para verificar se usuario foi cadastrado
     if(mysqli_query($conexao, $sql)){
         echo "<h1>Pedido enviado com sucesso!</h1>";
+        echo "<p>Você receberá uma mensagem no seu Whatszap em menos de 24hrs!</p>";
         echo" <h1><a href='tela.html'>Voltar</a></h1>";
     }else{
         echo "<h1>Pedido não enviado</h1>".mysqli_connect_errno($conexao);
