@@ -28,6 +28,9 @@
     color: rgb(0, 0, 0);
     font-size: 20px;
   }
+  #sobre {
+    height: 90vh;
+  }
   #foto {
     width: 97%;
     height: 300px;
@@ -47,6 +50,9 @@
     padding-top: 10%;
     font-size: 20px;
     text-align: justify;
+  }
+  #servico {
+    height: 100vh;
   }
   .bordaSVC {
     margin: 0%;
